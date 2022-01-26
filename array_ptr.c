@@ -50,6 +50,8 @@ typedef int (** ptrptrint_array2)[5];
 //f9 == foo
 ptrptrint_array2 (*f9)(void) = foo;
 
+struct { int a; } * aptr;
+
 int main() {
   return 0;
 }
